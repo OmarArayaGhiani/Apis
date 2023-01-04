@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+}
+hr {
+    width: 90%;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+    width: 350px;
+    padding: 10px;
+    background-color: rgb(216, 216, 216);
+    border-radius: 5px;
+    border: 1px solid black;
+}
+#input{
+    width: 150px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    text-align: center;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button{ 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+#select{
+    width: 150px;
+    padding: 8px;
+    border-radius: 5px;
+    text-align: center;
+}
+#btn {
+    width: 150px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    text-align: center;
+    margin: 10px 0px 10px;
+    background-color: rgb(185, 185, 185);
+}
+#btn:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+#none{
+    display: none;
+}
+canvas {
+    padding: 80px;
+    display: none;
+}
+
+
+
